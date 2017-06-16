@@ -1,6 +1,6 @@
-﻿namespace Domain
+﻿namespace ImmutabilityHelperDotNet.Example.Domain
 {
-    public class DebtorModel : BaseModel //<DebtorModel>
+    public class DebtorModel : BaseModel<DebtorModel>
     {
         public DebtorModel(string name, int age)
         {
